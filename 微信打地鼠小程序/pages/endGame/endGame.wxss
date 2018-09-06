@@ -1,0 +1,18 @@
+/* pages/endGame/endGame.wxss */
+.score{
+  position: relative;
+}
+
+.score>.scoreText{
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  left: 0;
+  top: 250rpx;
+  color: #ccc;
+}
+
+.score>.scoreText>text{
+  font-size: 60rpx;
+  color: #fff;
+}

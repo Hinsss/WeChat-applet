@@ -1,0 +1,61 @@
+/* pages/game/game.wxss */
+.gameBg{
+  width: 100%;
+  height: 100vh;
+}
+
+.clock image{
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+  width: 300rpx;
+  height: 100rpx;
+}
+
+.share>image{
+  width: 100rpx;
+  height: 160rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 0rpx;
+}
+
+.time{
+  position: absolute;
+  left:150rpx;
+  top:50rpx;
+  font-size: 28rpx;
+}
+.time>text{
+  color: pink;
+  font-size: 50rpx;
+}
+
+.gameText{
+  width: 750rpx;
+  text-align: center;
+  height: 200rpx;
+  line-height: 200rpx;
+  position: absolute;
+  left: 0;
+  top: 200rpx;
+}
+.gameText>.count{
+  display: inline;
+  font-size: 60px;
+  color: pink;
+}
+
+.mice{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 80rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mice image{
+  width: 25vw;
+  height: 25vw;
+}
